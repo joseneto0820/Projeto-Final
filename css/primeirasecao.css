@@ -16,7 +16,7 @@ section{
     font-weight: 600;
     line-height: 72px;
 }
-.divisoria h1{
+.divisoria .divisoria-h1{
     text-align: flex-start;
     padding-left: 140px;
     color: var(--c11, #111);
@@ -35,5 +35,13 @@ section{
     position: absolute;
     background: var(--p1, #FB0);
     top: 1500px;
+}
 
+.divisoria p{
+    color: var(--c8, #595959);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
 }
