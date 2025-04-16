@@ -1,0 +1,62 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 80px;
+    margin-right: 40px;
+
+}
+.grid img{
+    max-width: 100%;
+}
+.grid div{
+    padding-top: 80px;
+    padding-right: 40px;    
+}
+.caixona{
+    background: #000;
+    width: 1600px;
+    height: 680px;
+    flex-shrink: 0;
+    max-width: 100%;
+}
+.grid h1{
+    color: var(--w, #FFF);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 112.5% */
+}
+.grid span{
+    color: var(--p1, #FB0);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+}
+.grid p{
+    color: var(--c5, #B2B2B2);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+}
+.grid a{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--gradiente, linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%));
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+    color: var(--p5, #320);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+    text-decoration: none;
+    }

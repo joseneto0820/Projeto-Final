@@ -1,0 +1,39 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex ul{
+    list-style:none;
+}
+section{
+    margin-top: 120px;
+}
+.divisoria span{
+    color: var(--p1, #FB0);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+}
+.divisoria h1{
+    text-align: flex-start;
+    padding-left: 140px;
+    color: var(--c11, #111);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 112.5% */
+}
+
+.divisoria h3::before{
+    content: '';
+    width: 12px;
+    height: 8px;
+    flex-shrink: 0;
+    position: absolute;
+    background: var(--p1, #FB0);
+    top: 1500px;
+
+}
