@@ -1,0 +1,101 @@
+.seguros{
+    background: #111;
+    margin-top: 0px;
+    padding: 40px 40px;
+}
+.seguros h1{
+    color: var(--w, #FFF);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 112.5% */
+}
+.seguros-div{
+    margin: 20px;
+    border-radius: 5px;
+    background: var(--c12, #000);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.seguros-div1{
+    display: flex;
+    justify-content: center;
+}
+.prata{
+    color: var(--c6, #9C9C9C);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 133.333% */
+}
+.prata span{
+    color: var(--w, #FFF);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 133.333% */
+}
+.seguros ul{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
+}
+.inscreva{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--c10, #2E2E2E);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+    color: var(--c4, #CCC);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+
+}
+.ouro{
+    color: var(--p1, #FB0);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 133.333% */
+}
+.ouro span{
+    color: var(--w, #FFF);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 133.333% */
+}
+.inscreva-se{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--gradiente, linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%));
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+    color: var(--p5, #320);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+}
