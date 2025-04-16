@@ -1,0 +1,38 @@
+.parceiros{
+    margin-top: 200px;
+}
+
+
+.parceiros-h1{
+    color: var(--c11, #111);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 112.5% */
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.parceiros-div1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+}
+.parceiros-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.parceiros-h1 span{
+    color: var(--p1, #FB0);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+}
