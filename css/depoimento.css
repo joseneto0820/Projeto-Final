@@ -1,0 +1,32 @@
+.depoimento{
+    display: flex;
+    background: var(--p1, #FB0);
+}
+.depoimento-paragrafo{
+    color: var(--p5, #320);
+    font-family: Merriweather;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 48px; /* 133.333% */
+}
+.depoimento-paragrafo2{
+    color: var(--p4, #640);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    position: relative;
+}
+.segunda-aspas{
+    position: absolute;
+    top: 390px;
+    left: 620px;
+}
