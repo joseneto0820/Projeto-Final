@@ -1,0 +1,27 @@
+.section-one{
+    background: #111;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section-one h3{
+    color: var(--c5, #B2B2B2);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.section-one h1{
+    color: var(--w, #FFF);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
