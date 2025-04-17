@@ -1,0 +1,54 @@
+.term{
+    background: #111;
+    display: grid;
+    margin: 0;
+    padding: 40px;
+}
+.term h2{
+    color: var(--c5, #B2B2B2);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    text-transform: uppercase;
+}
+.term h1{
+    color: var(--w, #FFF);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 112.5% */
+}
+.term span{
+    color: var(--p1, #FB0);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+}
+.termos{
+    margin: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.termos h1{
+    color: var(--c11, #111);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */   
+}
+.termos p{
+    color: var(--c10, #2E2E2E);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    max-width: 70ch;
+}
