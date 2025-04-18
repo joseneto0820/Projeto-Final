@@ -10,6 +10,7 @@
 @import url(main-bike.css);
 @import url(termos.css);
 @import url(contato.css);
+@import url(pagina-seguros.css);
 *{
     font-family: 'Poppins';
 }
