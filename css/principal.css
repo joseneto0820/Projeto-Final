@@ -9,6 +9,7 @@
 @import url(secaoumbike.css);
 @import url(main-bike.css);
 @import url(termos.css);
+@import url(contato.css);
 *{
     font-family: 'Poppins';
 }

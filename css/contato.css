@@ -1,0 +1,92 @@
+.body{
+    background-color: #f7f7f7;
+}
+.respostas{
+    margin: 0;
+    background: #111;
+    height: 336px;
+    padding: 40px;
+}
+.respostas h2{
+    color: var(--c5, #B2B2B2);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    text-transform: uppercase;
+}
+.respostas h1{
+    color: var(--w, #FFF);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 112.5% */
+}
+.respostas span{
+    color: var(--p1, #FB0);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+}
+.corpo-contato{
+    margin-top: -190px;
+    display: grid;
+    justify-self: center;
+}
+.contato{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.contato-contato{
+    background-color: #000;
+    padding: 70px;
+    color: #fff;
+}
+.contato-forms{
+    background: #fff;
+    padding: 70px;
+}
+.contato-contato ul{
+    list-style: none;
+}
+.item{
+    display: grid;
+    grid-template-columns: 0.20fr 1fr; 
+}
+.flex-lista{
+    display: flex;
+    gap: 20px;
+}
+.nome{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea{
+    border: none;
+    border-radius: 4px;
+    color: #111;
+    background: #f7f7f7;
+    padding: 10px;
+}
+.botao-enviar{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--gradiente, linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%));
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
+    color: var(--p5, #320);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+}
